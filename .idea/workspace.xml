@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="Initial Commit - Starting the project and setting up the Data Base">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app002/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app002/settings.py" afterDir="false" />
+    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="DjangoRestFramework was successfully installed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
   <component name="ProjectId" id="2D4u8ShdOkgv7NOSJzmJpg7VANv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -27,7 +28,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ferna/Desktop/app002"
+    "last_opened_file_path": "C:/Users/ferna/Desktop/vidly"
   }
 }]]></component>
   <component name="RunManager">
@@ -64,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659970519534</updated>
       <workItem from="1659970586877" duration="902000" />
-      <workItem from="1659999851946" duration="1826000" />
+      <workItem from="1659999851946" duration="6494000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit - Starting the project and setting up the Data Base">
       <created>1660002950067</created>
@@ -73,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660002950068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DjangoRestFramework was successfully installed">
+      <created>1660003175322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660003175322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit - Starting the project and setting up the Data Base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit - Starting the project and setting up the Data Base" />
+    <MESSAGE value="DjangoRestFramework was successfully installed" />
+    <option name="LAST_COMMIT_MESSAGE" value="DjangoRestFramework was successfully installed" />
   </component>
 </project>
