@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="The return in the view for list of movies was modified">
+    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="Our serializer for the POST method was changed to its appropriate approach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
       <updated>1659970519534</updated>
       <workItem from="1659970586877" duration="902000" />
       <workItem from="1659999851946" duration="20258000" />
-      <workItem from="1660139756855" duration="7540000" />
+      <workItem from="1660139756855" duration="9731000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit - Starting the project and setting up the Data Base">
       <created>1660002950067</created>
@@ -126,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660158738401</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Our serializer for the POST method was changed to its appropriate approach">
+      <created>1660159937949</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660159937949</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +160,7 @@
     <MESSAGE value="We just worked our Views in a way more concise with some tools tha REST framework provides. We've implemented request objects, response, status code and wrapping API views." />
     <MESSAGE value="We've implemented what is suffixes to our URLs." />
     <MESSAGE value="The return in the view for list of movies was modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="The return in the view for list of movies was modified" />
+    <MESSAGE value="Our serializer for the POST method was changed to its appropriate approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Our serializer for the POST method was changed to its appropriate approach" />
   </component>
 </project>
