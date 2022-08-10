@@ -16,7 +16,7 @@ def movie_list(request, format=None):
     if request.method == 'GET':
         movies = Movie.objects.all()
         serializer = MovieSerializer(movies, many=True)
-        return Response(serializer.data, safe=False)
+        return Response(serializer.data)
 
     elif request.method == 'POST':
         data = JSONParser().parse(request)
