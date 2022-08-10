@@ -11,7 +11,7 @@ from rest_framework.views import APIView
 
 
 
-class MovieList(APIView)
+class MovieList(APIView):
     """
     List all Movies, or create a new one
     """
@@ -29,7 +29,7 @@ class MovieList(APIView)
 
 
 
-class MovieDetail(APIView)
+class MovieDetail(APIView):
     """
     Retrieve, update or delete a movie object
     """
