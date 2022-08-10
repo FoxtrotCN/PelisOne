@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="Now, we have saved a lot of code, using the ModelSerializers. We also created the views for the list of movies and its detail with options to update and delete.">
+    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="We just worked our Views in a way more concise with some tools tha REST framework provides. We've implemented request objects, response, status code and wrapping API views.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <updated>1659970519534</updated>
       <workItem from="1659970586877" duration="902000" />
       <workItem from="1659999851946" duration="20258000" />
-      <workItem from="1660139756855" duration="5450000" />
+      <workItem from="1660139756855" duration="6030000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit - Starting the project and setting up the Data Base">
       <created>1660002950067</created>
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660090976656</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="We just worked our Views in a way more concise with some tools tha REST framework provides. We've implemented request objects, response, status code and wrapping API views.">
+      <created>1660158105236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660158105237</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +136,7 @@
     <MESSAGE value="The models Movie, Genre and Cast were created" />
     <MESSAGE value="The first way working retrieving data from this API" />
     <MESSAGE value="Now, we have saved a lot of code, using the ModelSerializers. We also created the views for the list of movies and its detail with options to update and delete." />
-    <option name="LAST_COMMIT_MESSAGE" value="Now, we have saved a lot of code, using the ModelSerializers. We also created the views for the list of movies and its detail with options to update and delete." />
+    <MESSAGE value="We just worked our Views in a way more concise with some tools tha REST framework provides. We've implemented request objects, response, status code and wrapping API views." />
+    <option name="LAST_COMMIT_MESSAGE" value="We just worked our Views in a way more concise with some tools tha REST framework provides. We've implemented request objects, response, status code and wrapping API views." />
   </component>
 </project>

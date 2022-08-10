@@ -9,7 +9,7 @@ from rest_framework.response import Response
 
 
 @api_view(['GET', 'POST'])
-def movie_list(request):
+def movie_list(request, format=None):
     """
     List all Movies, or create a new one
     """
@@ -28,7 +28,7 @@ def movie_list(request):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-def movie_detail(request, pk):
+def movie_detail(request, pk, format=None):
     """
     Retrieve, update or delete a movie object
     """
