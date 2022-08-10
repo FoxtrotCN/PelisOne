@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="A better approach to achieve the DRY Principle: ClassBasedViews was implemented.">
+    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="Refactoring the code to follow the PEP8 rules">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
       <updated>1659970519534</updated>
       <workItem from="1659970586877" duration="902000" />
       <workItem from="1659999851946" duration="20258000" />
-      <workItem from="1660139756855" duration="9828000" />
+      <workItem from="1660139756855" duration="10726000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit - Starting the project and setting up the Data Base">
       <created>1660002950067</created>
@@ -139,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660162173988</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="A colon was missed working with the ClassBasedViews">
+      <created>1660162302210</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660162302210</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Refactoring the code to follow the PEP8 rules">
+      <created>1660162355662</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660162355662</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +182,8 @@
     <MESSAGE value="The return in the view for list of movies was modified" />
     <MESSAGE value="Our serializer for the POST method was changed to its appropriate approach" />
     <MESSAGE value="A better approach to achieve the DRY Principle: ClassBasedViews was implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="A better approach to achieve the DRY Principle: ClassBasedViews was implemented." />
+    <MESSAGE value="A colon was missed working with the ClassBasedViews" />
+    <MESSAGE value="Refactoring the code to follow the PEP8 rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring the code to follow the PEP8 rules" />
   </component>
 </project>
