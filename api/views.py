@@ -10,11 +10,11 @@ from django.http import Http404
 from rest_framework.views import APIView
 
 
-
 class MovieList(APIView):
     """
     List all Movies, or create a new one
     """
+
     def get(self, request, format=None):
         movies = Movie.objects.all()
         serializer = MovieSerializer(movies, many=True)
@@ -28,11 +28,11 @@ class MovieList(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-
 class MovieDetail(APIView):
     """
     Retrieve, update or delete a movie object
     """
+
     def get_object(self, pk):
         try:
             return Movie.objects.get(pk=pk)
@@ -43,7 +43,6 @@ class MovieDetail(APIView):
         movie = self.get_object(pk)
         serializer = MovieSerializer(movie)
         return Response(serializer.data)
-
 
     def put(self, request, pk, format=None):
         movie = self.get_object(pk)
