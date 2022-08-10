@@ -23,3 +23,4 @@ class MovieSerializer(serializers.Serializer):
         instance.genre = validated_data.get('genre', instance.genre)
         instance.save()
         return instance
+
