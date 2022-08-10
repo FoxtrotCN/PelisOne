@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="Now, we have saved a lot of code, using the ModelSerializers" />
+    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="Now, we have saved a lot of code, using the ModelSerializers. We also created the views for the list of movies and its detail with options to update and delete.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,14 +26,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ferna/Desktop/vidly&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ferna/Desktop/LaCasitaDeAngela"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="app002" type="Python.DjangoServer" factoryName="Django server">
       <module name="app002" />
@@ -65,6 +69,7 @@
       <updated>1659970519534</updated>
       <workItem from="1659970586877" duration="902000" />
       <workItem from="1659999851946" duration="20258000" />
+      <workItem from="1660139756855" duration="5450000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit - Starting the project and setting up the Data Base">
       <created>1660002950067</created>
@@ -94,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660087600680</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Now, we have saved a lot of code, using the ModelSerializers. We also created the views for the list of movies and its detail with options to update and delete.">
+      <created>1660090976656</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660090976656</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +128,7 @@
     <MESSAGE value="DjangoRestFramework was successfully installed" />
     <MESSAGE value="The models Movie, Genre and Cast were created" />
     <MESSAGE value="The first way working retrieving data from this API" />
-    <option name="LAST_COMMIT_MESSAGE" value="The first way working retrieving data from this API" />
+    <MESSAGE value="Now, we have saved a lot of code, using the ModelSerializers. We also created the views for the list of movies and its detail with options to update and delete." />
+    <option name="LAST_COMMIT_MESSAGE" value="Now, we have saved a lot of code, using the ModelSerializers. We also created the views for the list of movies and its detail with options to update and delete." />
   </component>
 </project>
