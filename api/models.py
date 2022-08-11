@@ -21,4 +21,5 @@ class Movie(models.Model):
     title = models.CharField(max_length=200)
     synopsis = models.TextField(max_length=1000)
     genre = models.CharField(max_length=155, choices=GENRE_CHOICES, default='')
+    owner = models.ForeignKey('auth.User', related_name='movies', on_delete=models.CASCADE)
 

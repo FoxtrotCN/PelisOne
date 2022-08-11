@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="refactoring the function post inside MovieList">
+    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="Now our code looks like good, clean, idiomatic Django. Generics Class-BasedViews was implemented.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0002_remove_movie_cast_remove_movie_genre.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0003_delete_cast_delete_genre.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0004_movie_genre.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0005_alter_movie_genre.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +31,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ferna/Desktop/LaCasitaDeAngela"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ferna/Desktop/LaCasitaDeAngela&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app002" type="Python.DjangoServer" factoryName="Django server">
       <module name="app002" />
