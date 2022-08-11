@@ -12,26 +12,21 @@ from rest_framework import mixins
 from rest_framework import generics
 
 
-class MovieList(mixins.ListModelMixin,
-                mixins.CreateModelMixin,
-                generics.GenericAPIView):
+class MovieList(generics.ListCreateAPIView):
     """
     List all Movies, or create a new one
     """
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
 
-    def get(self, request, *args, **kwargs):
-        return self.list(request, *args, *kwargs)
+    # def get(self, request, *args, **kwargs):
+    #     return self.list(request, *args, *kwargs)
+    #
+    # def post(self, request, *args, **kwargs):
+    #     return self.create(request, *args, *kwargs)
 
-    def post(self, request, *args, **kwargs):
-        return self.create(request, *args, *kwargs)
 
-
-class MovieDetail(mixins.RetrieveModelMixin,
-                  mixins.UpdateModelMixin,
-                  mixins.DestroyModelMixin,
-                  generics.GenericAPIView):
+class MovieDetail(generics.RetrieveUpdateDestroyAPIView):
     """
     Retrieve, update or delete a movie object
     """
@@ -39,11 +34,11 @@ class MovieDetail(mixins.RetrieveModelMixin,
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
 
-    def get(self, request, *args, **kwargs):
-        return self.retrieve(request, *args, *kwargs)
-
-    def put(self, request, *args, **kwargs):
-        return self.update(request, *args, *kwargs)
-
-    def delete(self, request, *args, **kwargs):
-        return self.destroy(request, *args, **kwargs)
+    # def get(self, request, *args, **kwargs):
+    #     return self.retrieve(request, *args, *kwargs)
+    #
+    # def put(self, request, *args, **kwargs):
+    #     return self.update(request, *args, *kwargs)
+    #
+    # def delete(self, request, *args, **kwargs):
+    #     return self.destroy(request, *args, **kwargs)
