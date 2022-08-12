@@ -1,12 +1,12 @@
 from rest_framework import serializers
 from .models import Movie
+from django.contrib.auth.models import User
 
 
-class MovieSerializer(serializers.Serializer):
-    id = serializers.IntegerField(read_only=True)
-    title = serializers.CharField(required=True, allow_blank=False, max_length=200)
-    synopsis = serializers.CharField(style={'base_template': 'textarea.html'})
-    genre = serializers.ChoiceField(choices=Movie.GENRE_CHOICES, default='')
+class MovieSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Movie
+        fields = ['id', 'title', 'synopsis', 'genre']
 
     def create(self, validated_data):
         """
@@ -23,4 +23,10 @@ class MovieSerializer(serializers.Serializer):
         instance.genre = validated_data.get('genre', instance.genre)
         instance.save()
         return instance
+
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['id', 'username', 'movies']
 
