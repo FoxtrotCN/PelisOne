@@ -26,6 +26,9 @@ class MovieList(generics.ListCreateAPIView):
     # def post(self, request, *args, **kwargs):
     #     return self.create(request, *args, *kwargs)
 
+    def perform_create(self, serializer):
+        serializer.save(owner=self.request.user)
+
 
 class MovieDetail(generics.RetrieveUpdateDestroyAPIView):
     """

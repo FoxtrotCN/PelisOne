@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="The code in the MovieSerializer class was refactoring to a Model Serializer class, and We added endpoints to our User models.">
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+    <list default="true" id="97149d55-9875-4e14-81f6-37f18ab62a6e" name="Changes" comment="I miss an L making the endpoint to UserDetail view">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660314833884</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="I miss an L making the endpoint to UserDetail view">
+      <created>1660314940711</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660314940711</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +224,7 @@
     <MESSAGE value="refactoring the function post inside MovieList" />
     <MESSAGE value="Adding information about the owner for our model." />
     <MESSAGE value="The code in the MovieSerializer class was refactoring to a Model Serializer class, and We added endpoints to our User models." />
-    <option name="LAST_COMMIT_MESSAGE" value="The code in the MovieSerializer class was refactoring to a Model Serializer class, and We added endpoints to our User models." />
+    <MESSAGE value="I miss an L making the endpoint to UserDetail view" />
+    <option name="LAST_COMMIT_MESSAGE" value="I miss an L making the endpoint to UserDetail view" />
   </component>
 </project>

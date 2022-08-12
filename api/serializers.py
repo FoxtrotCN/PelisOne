@@ -4,9 +4,11 @@ from django.contrib.auth.models import User
 
 
 class MovieSerializer(serializers.ModelSerializer):
+    owner = serializers.ReadOnlyField(source='owner.username')
+
     class Meta:
         model = Movie
-        fields = ['id', 'title', 'synopsis', 'genre']
+        fields = ['id', 'title', 'synopsis', 'genre', 'owner']
 
     def create(self, validated_data):
         """
