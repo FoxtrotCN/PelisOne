@@ -11,6 +11,7 @@ from rest_framework.views import APIView
 from rest_framework import mixins
 from rest_framework import generics
 from django.contrib.auth.models import User
+from rest_framework import permissions
 
 
 class MovieList(generics.ListCreateAPIView):
@@ -19,6 +20,7 @@ class MovieList(generics.ListCreateAPIView):
     """
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
+    permissions_classes = [permissions.IsAuthenticatedOrReadOnly]
 
     # def get(self, request, *args, **kwargs):
     #     return self.list(request, *args, *kwargs)
@@ -37,6 +39,7 @@ class MovieDetail(generics.RetrieveUpdateDestroyAPIView):
 
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
+    permissions_classes = [permissions.IsAuthenticatedOrReadOnly]
 
     # def get(self, request, *args, **kwargs):
     #     return self.retrieve(request, *args, *kwargs)
